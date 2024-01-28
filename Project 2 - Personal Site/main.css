@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inria+Serif&family=Orienta&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+body {
+    background-color: rgb(68, 67, 67);
+}
+
+.Section {
+    color: #EFECEC;
+    background-color: #062743;
+    border-radius: 30px;
+    margin: 3vh 3vw;
+    padding: 3vh 3vw;
+}
+
+.intro div {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro h1 {
+    font-size: 70px;
+    font-family: 'Orienta', sans-serif;
+    color: #FAEF5D;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.intro_logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prog {
+    padding-top: 20px;
+    z-index: 1;
+    text-transform: uppercase;
+    font-size: 90px;
+    position: relative;
+    text-align: center;
+}
+
+.prog div {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    position: absolute;
+    left: 56vw;
+    top: -37px;
+    background-color: #e14761;
+    z-index: -1;
+}
+
+.skill-data {
+    margin-top: 100px;
+    border-top: 4px solid #fff;
+    display: flex;
+    margin-left: 15px;
+    /* justify-content: center; */
+}
+
+.skill-stack {
+    display: grid;
+    grid-row: 1fr;
+    align-items: center;
+}
+
+.skill-logo {
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Skill h2 {
+    margin-left: 10px;
+    /* font-size: 30px; */
+    margin-top: 10px;
+    font-family: 'Bree Serif', serif;
+}
+
+.Education {
+    /* font-size: 40px; */
+    /* text-align: left; */
+    font-family: 'Bree Serif', serif;
+}
+
+.Education div {
+    border-top: 3px solid #fff;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.Education h2 {
+    /* text-align: left; */
+}
+
+.Education p {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 0;
+
+}
+
+.Education img {
+    height: 400px;
+    position: relative;
+    left: 30%;
+    border-radius: 20px;
+}
+
+.Project {
+    margin: 15px;
+    padding: 15px;
+    text-align: left;
+    border-top: 5px solid #fff;
+    font-family: 'Bree Serif', serif;
+}
+
+.Project div {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Project div div {
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+    padding: 3px;
+    display: block;
+    border: 3px solid #C4FFDD;
+}
+
+.Project div img {
+    width: 400px;
+}
+
+.Project a {
+    color: #FC6736;
+
+}
+
+.Project a:hover {
+    color: #FFB0B0;
+}
+
+.Project a:visited {
+    /* color: blueviolet; */
+}
+
+.other {
+    margin: 15px;
+    padding: 15px;
+    /* text-align: center; */
+    border-top: 3px solid #fff;
+    font-family: 'Bree Serif', serif;
+}
+
+.other p {
+    font-size: 25px;
+}
+
+.other button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    background: #FAEF5D;
+    border: none;
+    color: #7E2553;
+    font-weight: bolder;
+}
+
+button:hover {
+    color: #e47eb2;
+    background: #696525;
+}
+
+h2 {
+    color: #FF004D;
+}
+
+footer {
+    height: 12vh;
+    padding: 30px;
+    color: wheat;
+    text-align: center;
+    background: #062743;
+    border-top: 3px solid #fff;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    color: #74DEED;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 18px;
+    padding-top: 20px;
+    font-family: 'Bree Serif', serif;
+}
