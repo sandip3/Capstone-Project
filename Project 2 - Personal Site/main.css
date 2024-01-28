@@ -220,3 +220,61 @@ footer p {
     padding-top: 20px;
     font-family: 'Bree Serif', serif;
 }
+
+@media (max-width: 767px) {
+    .intro h1 {
+        font-size: 55px;
+    }
+
+
+    .intro_logo img {
+        width: 200px;
+        padding-bottom: 30px;
+    }
+
+    .prog {
+        font-size: 80px;
+    }
+
+    .prog div {
+        width: 160px;
+        height: 160px;
+        left: 66vw;
+        top: -6px;
+    }
+
+    .Skill img {
+        width: 100px;
+    }
+
+    .Education img {
+        padding: 40px 0;
+        left: 15%;
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .Project div {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .Project div div {
+        width: 600px;
+        margin: 20px 0;
+    }
+
+    .Project div img {
+        width: 600px;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    footer ul {
+        display: grid;
+        padding-bottom: 25px;
+    }
+}
