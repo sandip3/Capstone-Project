@@ -12,4 +12,5 @@
 
 # Fun Project 
 
-## [Disee Game]() 🎲🎲
+## [Disee Game](https://sandip3.github.io/Capstone-Project/Fun%20Project/Dicee%20Game/) 🎲🎲
+gi
