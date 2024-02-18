@@ -14,12 +14,14 @@ function drum_click() {
     var drumText = this.innerText;
     // console.log(drumText);
     drumSound(drumText);
+    btnAnimation(drumText);
 }
 
 // On Key Funtion
-document.addEventListener("keydown", function(event) {
+document.addEventListener("keydown", function (event) {
     // console.log(event.key);
     drumSound(event.key);
+    btnAnimation(event.key);
 })
 
 // On Sound Funtion
@@ -68,3 +70,10 @@ function drumSound(key) {
 
 // var audio = new Audio("./sounds/tom-1.mp3")
 // audio.play();
+function btnAnimation(currentKey) {
+    var activeBtn = document.querySelector("." + currentKey);
+    activeBtn.classList.add("pressed");
+    setTimeout(function () {
+        activeBtn.classList.remove("pressed");
+    }, 200);
+}
