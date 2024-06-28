@@ -22,6 +22,22 @@ h1 {
   color: #4ECCA3;
 }
 
+h2 {
+  margin: 30px;
+  font-family: cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 2rem;
+  color: aqua;
+}
+
+span {
+  margin: 30px;
+  font-family: cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 2rem;
+  color: red;
+}
+
 p {
   font-size: 2rem;
   color: #4ECCA3;
